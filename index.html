@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <title>IMC</title>
+    <link href="/style/base.css" rel="stylesheet" type="text/css" />
+    
+</head>
+
+<body>
+    
+    <h1>Calculo de  IMC</h1>
+    <p id="home">Preencha todos os campos para obter seu IMC </p>
+    <label for="txtAltura"> Digite sua Altura</label><br />
+   
+    <p class="hint">(Em metros, usando ponto.
+        Exemplos: 1.50, 1.77 etc)</p>
+        <br>
+    <input id="txtAltura" type="text" required><br /><br />
+    <label for="txtPesos"> Digite seu Peso:</label><br />
+    <p class="hint">(Em kg, usando ponto ou não.
+        Exemplos: 72.5, 90.5, 90.0 ou 90)</p>
+        <br>
+    <input id="txtPeso" type="text" required><br /><br />
+    <button id="brinCalcularIMC" onclick="main();">Calcular</button>
+    <input id="exibirResultado" type="text" readonly placeholder="Seu IMC aparecerá aqui" size="30"><br /><br />
+    
+    <p class="hint">Clique em "Limpar" para reiniciar os campos </p>
+    <br>
+    <input id="Excluir" type="button" value="Limpar" onclick="limpar();">
+    <script src="/script.js"></script>
+</body>
+
+</html>

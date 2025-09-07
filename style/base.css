@@ -1,0 +1,133 @@
+/* Estilo base */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #3d0d74, #0d0d0e);
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Título */
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Labels */
+label {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+/* Estilo para os textos explicativos (dicas) */
+.hint {
+    font-size: 0.85em;
+    font-style: italic;
+    color: #ffffff;
+    margin: 4px 0 8px;
+    display: block;
+    text-align: center;
+    line-height: 1.4;
+}
+
+
+/* Inputs e resultado */
+#txtAltura, 
+#txtPeso, 
+#exibirResultado {
+    width: 325px;
+    height: 40px;
+    font-size: 1.1em;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin: 8px auto;
+    display: block;
+    transition: 0.3s ease;
+}
+
+/* Efeito quando foca no input */
+#txtAltura:focus, 
+#txtPeso:focus {
+    border-color: #2e7d32;
+    box-shadow: 0 0 6px rgba(46,125,50,0.6);
+    outline: none;
+}
+
+#exibirResultado {
+    font-weight: bold;
+    color: #1565c0;
+    background-color: #f0f8ff;
+}
+
+/* Botões gerais */
+button {
+    width: 140px;
+    height: 40px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin: 12px auto;
+    display: block;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+
+/* Botão Excluir (Limpar) */
+#Excluir {
+    width: 140px;             
+    height: 40px;              
+    background-color: #e53935;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    margin: 15px auto;        
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+    transition: transform 0.2s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#Excluir:hover {
+    background-color: #c62828;
+    transform: scale(1.05);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+
+#Excluir:active {
+    transform: scale(0.95);
+    background-color: #b71c1c;
+}
+
+/* Botão Calcular */
+#brinCalcularIMC {
+    background-color: #43a047;
+    color: white;
+}
+
+#brinCalcularIMC:hover {
+    background-color: #2e7d32;
+    transform: scale(1.05);
+}
+
+
+#home {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
