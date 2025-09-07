@@ -1,0 +1,2 @@
+Projeto desenvolvido durante a faculdade com o objetivo de praticar e aprender JavaScript. A aplicação permite que o usuário insira peso e altura, calcule automaticamente o Índice de Massa Corporal (IMC) e exiba a classificação correspondente (abaixo do peso, peso normal, sobrepeso ou obesidade).
+O projeto também envolveu a utilização de HTML e CSS para a interface, além de lógica de programação em JavaScript para validação e processamento dos dados.
